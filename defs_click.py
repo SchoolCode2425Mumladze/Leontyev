@@ -1,4 +1,3 @@
-import defs_switch
 import turtle
 
 t = turtle.Turtle()
@@ -19,17 +18,19 @@ t.fillcolor("red")
 # Для дней в неделях (с 1 по 7)(-484,-302,-119,66,249,432,615)
 
 
-def click_day1():
+def click_day1(x, y):
     t.penup()
-    t.hideturtle()
-    t.goto(-484, 179)
-    t.pendown()
-    t.begin_fill()
-    t.fillcolor("red") #Здесь я хотел чтобы была переменная "color_now" из файла "defs_switch", но я не знаю как использовать переменную из другого файла и другой функции, я пытался, но не вышло. В итоге у меня на это ушла большая часть времени, извините...
-    t.circle(1)
-    t.end_fill()
+    if -461 > x < -640 and 156 < y < 280:
+        t.goto(-484, 179)
+        t.pendown()
+        t.begin_fill()
+        t.fillcolor("red")  # Здесь я хотел чтобы была переменная "color_now" из файла "defs_switch", но я не знаю как использовать переменную из другого файла и другой функции, я пытался, но не вышло. В итоге у меня на это ушла большая часть времени, извините...
+        t.circle(1)
+        t.end_fill()
 
-def click_day2():
+def click_day2(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(-302, 179)
@@ -39,7 +40,9 @@ def click_day2():
     t.circle(1)
     t.end_fill()
 
-def click_day3():
+def click_day3(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(-119, 179)
@@ -49,7 +52,9 @@ def click_day3():
     t.circle(1)
     t.end_fill()
 
-def click_day4():
+def click_day4(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(66, 179)
@@ -59,7 +64,9 @@ def click_day4():
     t.circle(1)
     t.end_fill()
 
-def click_day5():
+def click_day5(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(249, 179)
@@ -69,7 +76,9 @@ def click_day5():
     t.circle(1)
     t.end_fill()
 
-def click_day6():
+def click_day6(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(432, 179)
@@ -79,7 +88,9 @@ def click_day6():
     t.circle(1)
     t.end_fill()
 
-def click_day7():
+def click_day7(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(615, 179)
@@ -89,7 +100,9 @@ def click_day7():
     t.circle(1)
     t.end_fill()
 
-def click_day8():
+def click_day8(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(-484, 51)
@@ -99,7 +112,9 @@ def click_day8():
     t.circle(1)
     t.end_fill()
 
-def click_day9():
+def click_day9(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(-302, 51)
@@ -109,7 +124,9 @@ def click_day9():
     t.circle(1)
     t.end_fill()
 
-def click_day10():
+def click_day10(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(-119, 51)
@@ -119,7 +136,9 @@ def click_day10():
     t.circle(1)
     t.end_fill()
 
-def click_day11():
+def click_day11(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(66, 51)
@@ -129,7 +148,9 @@ def click_day11():
     t.circle(1)
     t.end_fill()
 
-def click_day12():
+def click_day12(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(249, 51)
@@ -139,7 +160,9 @@ def click_day12():
     t.circle(1)
     t.end_fill()
 
-def click_day13():
+def click_day13(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(432, 51)
@@ -149,7 +172,9 @@ def click_day13():
     t.circle(1)
     t.end_fill()
 
-def click_day14():
+def click_day14(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(615, 51)
@@ -159,7 +184,9 @@ def click_day14():
     t.circle(1)
     t.end_fill()
 
-def click_day15():
+def click_day15(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(-484, -79)
@@ -169,7 +196,9 @@ def click_day15():
     t.circle(1)
     t.end_fill()
 
-def click_day16():
+def click_day16(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(-302, -79)
@@ -179,7 +208,9 @@ def click_day16():
     t.circle(1)
     t.end_fill()
 
-def click_day17():
+def click_day17(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(-119, -79)
@@ -189,7 +220,9 @@ def click_day17():
     t.circle(1)
     t.end_fill()
 
-def click_day18():
+def click_day18(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(66, -79)
@@ -199,7 +232,9 @@ def click_day18():
     t.circle(1)
     t.end_fill()
 
-def click_day19():
+def click_day19(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(249, -79)
@@ -209,7 +244,9 @@ def click_day19():
     t.circle(1)
     t.end_fill()
 
-def click_day20():
+def click_day20(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(432, -79)
@@ -219,7 +256,9 @@ def click_day20():
     t.circle(1)
     t.end_fill()
 
-def click_day21():
+def click_day21(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(615, -79)
@@ -229,7 +268,9 @@ def click_day21():
     t.circle(1)
     t.end_fill()
 
-def click_day22():
+def click_day22(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(-484, -207)
@@ -239,7 +280,9 @@ def click_day22():
     t.circle(1)
     t.end_fill()
 
-def click_day23():
+def click_day23(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(-302, -207)
@@ -249,7 +292,9 @@ def click_day23():
     t.circle(1)
     t.end_fill()
 
-def click_day24():
+def click_day24(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(-119, -207)
@@ -259,7 +304,9 @@ def click_day24():
     t.circle(1)
     t.end_fill()
 
-def click_day25():
+def click_day25(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(66, -207)
@@ -269,7 +316,9 @@ def click_day25():
     t.circle(1)
     t.end_fill()
 
-def click_day26():
+def click_day26(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(249, -207)
@@ -279,7 +328,9 @@ def click_day26():
     t.circle(1)
     t.end_fill()
 
-def click_day27():
+def click_day27(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(432, -207)
@@ -289,7 +340,9 @@ def click_day27():
     t.circle(1)
     t.end_fill()
 
-def click_day28():
+def click_day28(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(615, -207)
@@ -299,7 +352,9 @@ def click_day28():
     t.circle(1)
     t.end_fill()
 
-def click_day29():
+def click_day29(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(249, -355)
@@ -309,7 +364,9 @@ def click_day29():
     t.circle(1)
     t.end_fill()
 
-def click_day30():
+def click_day30(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(432, -355)
@@ -319,7 +376,9 @@ def click_day30():
     t.circle(1)
     t.end_fill()
 
-def click_day31():
+def click_day31(x, y):
+    if 1 <= x <= ... and ... >= y <= ...:
+        ...
     t.penup()
     t.hideturtle()
     t.goto(615, -355)
