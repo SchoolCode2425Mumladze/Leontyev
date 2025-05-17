@@ -1,7 +1,19 @@
 # import turtle as t
 # turtle = t.Turtle()
 # screen = t.Screen()
-
+#
+#
+#Создание и настройка окна
+#bg_pic_num = int(0) # Переменная необходимая для работы функции switch_background_pic() (в файле "defs_click.py")
+#
+#screen.setup(1280, 720)
+#screen.bgpic("backgrounds/bg_pic0.gif") # Я не смог найти как указать ПУТЬ к файлу в папке, и я опять потратил на это кучу времени вручную перебирая варианты, простите...
+#
+#Настройка черепашки
+#color_num = int(0) # Переменная необходимая для работы функции switch_color_pen() (в файле "defs_click.py")
+#
+#screen.onscreenclick(defs_click.click_day1)
+#
 #
 # def click(x, y):
 #     if -40 <= x <= 40 and -20 <= y <= 20:
@@ -27,7 +39,7 @@
 #
 # screen.onclick(click)
 # screen.mainloop()
-
+#
 # from defs_click import *
 # import turtle
 #
