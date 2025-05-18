@@ -40,5 +40,5 @@ def switch_color_pen(): # screen.onkey(switch_color_pen, "c")
     defs_click.t.fillcolor(colors[color_num])
     return color_now
 
-def exit_program(): # screen.onkey(exit_program(), "Escape")
+def exit_program(): # screen.onkey(exit_program, "Escape")
     exit()
