@@ -1,9 +1,10 @@
 import defs_click
-#import turtle
+import turtle
 
 
-bg_pic_num = None
-bg_pic_now = None
+bg_pic_num = 0
+bg_pic_now = "backgrounds/bg_pic0.gif"
+
 def switch_background_pic():  # screen.onkey(switch_background_pic, "b")
     global bg_pic_num
     global bg_pic_now
@@ -21,24 +22,26 @@ def switch_background_pic():  # screen.onkey(switch_background_pic, "b")
     defs_click.screen.bgpic(background_pics[bg_pic_num])
     return print(bg_pic_now)
 
-color_num = None
-color_now = None
-def switch_color_pen(): # screen.onkey(switch_color_pen, "c")
-    global color_num
-    global color_now
 
-    color_num = int(0)
+colors = ["red", "orange", "yellow", "green", "blue", "purple"]
+color_num = 0
+color_now = colors[color_num]
 
-    for i in range(1):
-        color_num += 1
 
-    if color_num > 6:
-        color_num = 0
+def switch_color_pen():
+    global color_num, color_now
 
-    colors = ["red", "orange", "yellow", "green", "blue", "purple"]
+    color_num = (color_num + 1) % len(colors)
     color_now = colors[color_num]
-    defs_click.t.fillcolor(colors[color_num])
+
+    # Обновляем цвет черепашки сразу при переключении
+    defs_click.t.pencolor(color_now)
+    defs_click.t.fillcolor(color_now)
+
     return color_now
 
-def exit_program(): # screen.onkey(exit_program, "Escape")
-    exit()
+
+def back_of_option():
+    defs_click.screen.bgpic("backgrounds/Pxlendar_menu.gif")
+    defs_click.background_start = 1
+    defs_click.t.clear()
