@@ -13,6 +13,6 @@ defs_click.screen.onscreenclick(defs_click.clicks)
 defs_click.screen.onkey(defs_keys.switch_color_pen, "c")
 defs_click.screen.onkey(defs_keys.back_of_option, "Escape")
 
-defs_click.points_return()
+
 turtle.listen()
 defs_click.screen.mainloop()
